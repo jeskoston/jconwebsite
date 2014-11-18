@@ -1,0 +1,264 @@
+/*This is the CSS Styles page for JesseContreras.net  
+any design changes or references should be made here*/
+
+html, body { 
+height: 100%; 
+	overflow: hidden;
+	background-image:url('../img/subtle_dots_@2X.png');
+}
+
+/*pt perspective is just a container that takes up the whole page*/
+.pt-perspective {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+}
+
+.pt-page {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.pt-page-current,
+.no-js .pt-page {
+	visibility: visible;
+	z-index: -2;
+}
+
+/*Focus on H1*/
+.no-js body {
+	overflow: auto;
+}
+
+.pt-page-ontop {
+	z-index: 999;
+}
+
+
+.pt-page-3 {
+
+}
+
+#jcLogo
+{
+ position: absolute;
+ left:0.8985%; /*move logo 115 px's from the left*/
+ top:1.01575%; /*65 px's*/
+}
+
+#contactmeLabel
+{
+position: absolute;
+top: 1.01575%;
+left: 50%;
+}
+
+#contactmeBlurb
+{
+position: absolute;
+top: 91%; 
+left: 0.8985%;
+}
+
+
+#contactmeEnvelope
+{
+position: absolute;
+top: 19%; 
+left: 25%;
+}
+
+#name
+{
+position: absolute;
+top: 27.65%; 
+left: 34.10%;
+/*height:2.75%;
+width: 9.5%;*/
+}
+
+#email
+{
+position: absolute;
+top: 31.80%; 
+left: 34.10%;
+/*height:2.75%;
+width: 9.5%;*/
+}
+
+#phone
+{
+position: absolute;
+top: 36%;
+left: 34.10%;
+/*height:2.75%;
+width: 9.5%;*/
+}
+
+#message
+{
+position: absolute;
+top: 42.5%; 
+left: 34%;
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
+
+textarea 
+{
+  border: 1px solid #888; 
+  /*height:30%;*/
+}
+
+#submit
+{
+	position:absolute;
+	top:72%;
+	left:52.32%;
+	/*height:2.75%;*/
+}
+
+/*input
+{
+ padding: 2px;
+ margin: 1x 0;
+}*/
+
+
+/*
+#submit
+{
+	position:absolute;
+	top:75%;
+	left:58.15%;
+	/*background-image: 	url(../img/submitButton.gif);*/
+	/*background-repeat:	no-repeat;*/
+	/*background-color:	transparent;*/
+	/*height:			40px;
+	width:			112px;
+	border:			none;
+	text-indent:	-999em;*/
+/*}
+
+#submit:active 
+{
+ vertical-align: top;
+ padding: 2.67px 4.3px 2px;
+}
+
+#submit:hover
+{
+opacity:0.9;
+filter:alpha(opacity=90);/*For IE8 and earlier*/
+/*}*/
+
+header
+{
+position:absolute;
+display:block;
+background-color:#EFF0E0;
+width: 100%;
+height:0px; /*95px*/;
+}
+
+
+#miscCircle
+{
+position:absolute;
+top:2%;
+left:3.5%;
+opacity:.50;
+filter:alpha(opacity=50);/*For IE8 and earlier*/
+}
+
+#miscCircle:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100);/*For IE8 and earlier*/
+}
+
+#homeCircle
+{
+position:absolute;
+top:24%;
+left:3.5%;
+opacity:.50;
+filter:alpha(opacity=50);/*For IE8 and earlier*/
+}
+
+#homeCircle:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100);/*For IE8 and earlier*/
+}
+
+#aboutCircle
+{
+position:absolute;
+top:46%;
+left:3.5%;
+opacity:.50;
+filter:alpha(opacity=50);/*For IE8 and earlier*/
+}
+
+#aboutCircle:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100);/*For IE8 and earlier*/
+}
+
+#portCircle
+{
+position:absolute;
+top:68%;
+left:3.5%;
+opacity:.50;
+filter:alpha(opacity=50);/*For IE8 and earlier*/
+}
+
+#portCircle:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100);/*For IE8 and earlier*/
+}
+
+/*
+div#responsive
+{
+width:80%;
+margin: 0 10%
+}
+
+input
+{
+ padding: 2px;
+ margin: 15px 0;
+}
+
+input[type=submit]{
+width:5%;
+padding:5px 1px;
+}
+
+textarea
+{
+ width:29%;
+ padding: 6px;
+ margin: 15px 0;
+}*/
